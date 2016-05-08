@@ -1,0 +1,118 @@
+$couleur1: #954947;
+$couleur2: #F8F8F8;
+$couleur3: #37485C;
+$couleur4: #AAAAAA;
+.espace-bloc {
+    padding: 50px;
+}
+
+h1,
+h3 {
+    color: $couleur3;
+}
+
+h2,
+h4 {
+    color: $couleur1;
+}
+
+p {
+    color: $couleur4;
+}
+
+#contact,
+#aboutcaroussel {
+    background-color: $couleur2;
+}
+
+
+/* debut header */
+
+header {
+    background: url('../img/cats.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    p {
+        color: white;
+    }
+    .contour {
+        padding: 10px;
+        border: 2px solid white;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        width: 60%;
+        .logo {
+            padding: 50px;
+            background-color: white;
+            width: 98%;
+        }
+    }
+}
+
+
+/* fin header */
+
+
+/* debut nav */
+
+.navbar-default {
+    border: none;
+    .navbar-brand:focus,
+    .navbar-brand:hover,
+    .navbar-brand {
+        color: $couleur1;
+    }
+    .navbar-nav {
+        li {
+            a {
+                margin: 5px;
+                background-color: $couleur3;
+                color: white;
+            }
+        }
+    }
+}
+
+
+/* fin nav */
+
+
+/* debut contact */
+
+#contact {
+    button {
+        background-color: $couleur1;
+        border: none;
+        color: white;
+    }
+    .liste {
+        color: $couleur3;
+        .mail {
+            color: $couleur1;
+        }
+    }
+}
+
+
+/* fin contact */
+
+
+/* debut footer */
+
+footer {
+    background: url('../img/ftr.jpg') no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    h3 {
+        color: $couleur1;
+    }
+    p {
+        color: white;
+    }
+}
+
+
+/* fin footer */

@@ -1,0 +1,77 @@
+.espace-bloc {
+  padding: 50px; }
+
+h1,
+h3 {
+  color: #37485C; }
+
+h2,
+h4 {
+  color: #954947; }
+
+p {
+  color: #AAAAAA; }
+
+#contact,
+#aboutcaroussel {
+  background-color: #F8F8F8; }
+
+/* debut header */
+header {
+  background: url("../img/cats.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white; }
+  header p {
+    color: white; }
+  header .contour {
+    padding: 10px;
+    border: 2px solid white;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    width: 60%; }
+    header .contour .logo {
+      padding: 50px;
+      background-color: white;
+      width: 98%; }
+
+/* fin header */
+/* debut nav */
+.navbar-default {
+  border: none; }
+  .navbar-default .navbar-brand:focus,
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand {
+    color: #954947; }
+  .navbar-default .navbar-nav li a {
+    margin: 5px;
+    background-color: #37485C;
+    color: white; }
+
+/* fin nav */
+/* debut contact */
+#contact button {
+  background-color: #954947;
+  border: none;
+  color: white; }
+#contact .liste {
+  color: #37485C; }
+  #contact .liste .mail {
+    color: #954947; }
+
+/* fin contact */
+/* debut footer */
+footer {
+  background: url("../img/ftr.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white; }
+  footer h3 {
+    color: #954947; }
+  footer p {
+    color: white; }
+
+/* fin footer */
+
+/*# sourceMappingURL=main.css.map */
